@@ -10,3 +10,5 @@ class ModelTests(TestCase):
     def test_category_creation(self):
         category = Category.objects.create(category='Test Category')
         self.assertEqual(category.category, 'Test Category')
+
+
