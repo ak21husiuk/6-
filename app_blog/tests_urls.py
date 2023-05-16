@@ -21,3 +21,4 @@ class HomeTests(TestCase):
         view = resolve('/')
         self.assertEquals(view.func.view_class,
                          HomePageView)
+
