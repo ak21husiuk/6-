@@ -22,8 +22,3 @@ class HomeTests(TestCase):
         self.assertEquals(view.func.view_class,
                          HomePageView)
 
-
-
-
-
-

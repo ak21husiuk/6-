@@ -12,6 +12,3 @@ class ModelTests(TestCase):
         self.assertEqual(category.category, 'Test Category')
 
 
-
-
-
