@@ -28,6 +28,7 @@ class Category(models.Model):
 
 class Article(models.Model):
     title = models.CharField('Заголовок', max_length=250, help_text='Максимум 250 символів')
+    description = models.TextField('Опис', default='')
     content = models.TextField('Контент', blank=True, null=True)
     pub_date = models.DateTimeField('Дата публікації', default=timezone.now)
     slug = models.SlugField('Слаг', unique_for_date='pub_date')
